@@ -48,3 +48,44 @@
     background-color: #666;
     color: white;
   }
+
+  .topcolumn {
+    float: left;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .toprow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .midcolumn {
+    float: right;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .midrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(122, 233, 228);
+    color: white;
+  }
