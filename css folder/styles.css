@@ -1,0 +1,111 @@
+.header {
+    text-align: center;
+    color: white;
+  }
+
+  .header img {
+        width: 100%;
+        height: 450px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(73, 73, 73);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a.right {
+    float: right;
+    width: 10%;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+
+  .topcolumn {
+    float: left;
+    padding: 0px;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+
+  .column {
+    float: left;
+    margin: 25px 0px;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .column img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgcontainer {
+    width: 25%;
+    height: 30%;
+    float: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(255, 253, 253, 0.918);
+    color: rgb(3, 3, 3);
+  }
+
+  .footercolumn {
+    width: 40%;
+    height: 30%;
+    padding: 2%;
+    float: left;
+  }
+  
+  .footerrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .right {
+      float: right;
+  }
+
+  #gradient {
+    height: max-content;
+    background-color: aquamarine;
+    background: rgb(237,218,67);
+    background: linear-gradient(45deg, rgba(237,218,67,1) 5%, rgba(58,177,6,0.6166841736694677) 47%, rgba(111,214,255,1) 95%);
+  }
