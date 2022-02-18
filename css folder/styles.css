@@ -109,3 +109,9 @@
     background: rgb(237,218,67);
     background: linear-gradient(45deg, rgba(237,218,67,1) 5%, rgba(58,177,6,0.6166841736694677) 47%, rgba(111,214,255,1) 95%);
   }
+
+  .contactinfo {
+			margin:1% auto;
+			margin-right: auto; margin-left: auto; width: 21%; 
+			padding-top: 11px;
+  }
